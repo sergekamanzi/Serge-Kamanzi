@@ -1,0 +1,115 @@
+.main-project {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .projects {
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 300px;
+    width: 100%;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.3s ease;
+  }
+  
+  .projects:hover {
+    transform: scale(1.05);
+  }
+  
+  .projects img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .projects h5 {
+    font-size: 1.25rem;
+    margin: 15px 0;
+    color: #8892b0;
+  }
+  
+  .projects p {
+    font-size: 0.95rem;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .project-btn {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .project-btn p a {
+    background-color: transparent;
+    color: rgb(226, 222, 222);
+    padding: 8px 16px;
+    border: 1px solid rgb(196, 193, 193);
+    font-size: 0.9rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .project-btn p a svg {
+    margin-right: 8px;
+  }
+  
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 1.75rem;
+    }
+  
+    .projects {
+      max-width: 45%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .project-container {
+      justify-content: center;
+    }
+  
+    .projects {
+      max-width: 90%;
+      margin-bottom: 20px;
+    }
+
+    .projects img {
+      width: 50%;
+      height: auto;
+    }
+  
+    .main-project h1 {
+      font-size: 1.9rem;
+    }
+  
+    .projects h5 {
+      font-size: 1.1rem;
+    }
+  
+    .projects p {
+      font-size: 0.85rem;
+    }
+  
+    .project-btn p a {
+      font-size: 0.85rem;
+      padding: 6px 12px;
+    }
+  }
+  

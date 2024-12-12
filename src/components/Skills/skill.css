@@ -1,0 +1,149 @@
+/* General Styling */
+.main-skill {
+    padding: 60px 10%;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #e6f1ff;
+}
+
+/* Skill Section */
+.skill-container {
+    margin-bottom: 40px;
+}
+
+.skill-container h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #8892b0;
+}
+
+.skill-container ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+}
+
+.skill-container li {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #8892b0;
+    transition: transform 0.3s;
+}
+
+.skill-container li:hover {
+    color: #68aa9b;
+    transform: translateY(-5px);
+}
+
+.skill-container li svg {
+    margin-right: 10px;
+    font-size: 30px;
+    color: #64af9e;
+    transition: color 0.3s;
+}
+
+.skill-container li:hover svg {
+    color: #e6f1ff;
+}
+
+/* Education Section */
+.edu-container {
+    margin-bottom: 40px;
+}
+
+.edu-container h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #8892b0;
+}
+
+.edu-content {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: start;
+}
+
+.edu {
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.edu:hover {
+    transform: translateY(-5px);
+}
+
+.edu svg {
+    font-size: 40px;
+    color: #64af9e;
+    margin-bottom: 20px;
+}
+
+.edu h4 {
+    font-size: 18px;
+    color: #e6f1ff;
+    margin-bottom: 10px;
+}
+
+.edu p {
+    font-size: 16px;
+    color: #8892b0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .skill-container ul {
+        gap: 20px;
+    }
+
+    .skill-container li {
+        font-size: 16px;
+    }
+
+    .edu-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-skill {
+        padding: 40px 5%;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .skill-container ul {
+        gap: 15px;
+    }
+
+    .skill-container li {
+        font-size: 14px;
+    }
+
+    .edu-container h4, .edu h4 {
+        font-size: 20px;
+    }
+
+    .edu svg {
+        font-size: 36px;
+    }
+
+    .edu p {
+        font-size: 14px;
+    }
+}
