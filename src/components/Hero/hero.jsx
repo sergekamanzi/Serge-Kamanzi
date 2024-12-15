@@ -22,7 +22,7 @@ const Hero = () => {
          <IoMdDownload /> Resume
       </button>
       <div className="social-media">
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/sergekamanzi" target="_blank" rel="noopener noreferrer">
           <FaGithub />
         </a>
         <a

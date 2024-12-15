@@ -50,6 +50,16 @@ const skill = () => {
                     <h4>AWS Solutions Architect& <br/> Cloud Practitioner</h4>
                     <p>ALX Camp<br/>2023-2024</p>   
                 </div>
+                <div className='edu'>
+                    <PiCertificateFill />
+                    <h4>AWS Machine Learning</h4>
+                    <p>Coursera<br/>2023-2024</p>   
+                </div>
+                <div className='edu'>
+                    <PiCertificateFill />
+                    <h4>Fullstack-Specialization</h4>
+                    <p>Coursera<br/>2022-2023</p>   
+                </div>
             </div>
         </div>
     </div>
