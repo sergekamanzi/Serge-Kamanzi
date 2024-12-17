@@ -43,7 +43,7 @@ const skill = () => {
                 <div className='edu'>
                     <FaGraduationCap/>
                     <h4>Bachelor of Science in <br/>Software Engineering</h4>
-                    <p>African Leadership University<br/>2023-2026</p>   
+                    <p>African Leadership University<br/>2022-2025</p>   
                 </div>
                 <div className='edu'>
                     <PiCertificateFill />
